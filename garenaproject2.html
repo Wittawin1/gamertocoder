@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Chocola</title>
+    <style>
+      .bgcol {
+        width: 1870px;
+        height: 2300px;
+        background-color: #fff8ea;
+      }
+      @font-face {
+        font-family: "Minecraft";
+        src: url("Minecraft.TTF");
+      }
+      @font-face {
+        font-family: "pixelletbold";
+        src: url("pixelletbold.TTF");
+      }
+      #mainpage2 {
+        font-size: 90px;
+        font-family: "Minecraft";
+        text-align: center;
+        vertical-align: top;
+        margin-top: 20px;
+        padding-top: 5px;
+        color: white;
+      }
+      #boxformainpage2 {
+        background-color: #594545;
+        margin-left: -20px;
+        margin-right: -20px;
+      }
+
+      #question1 {
+        font-size: 45px;
+        font-family: "pixelletbold";
+        text-align: center;
+        vertical-align: top;
+        color: #594545;
+      }
+
+      #question2 {
+        font-size: 45px;
+        font-family: "pixelletbold";
+        text-align: center;
+        vertical-align: top;
+        color: #594545;
+      }
+
+      #question3 {
+        font-size: 45px;
+        font-family: "pixelletbold";
+        text-align: center;
+        vertical-align: middle;
+        color: #594545;
+      }
+
+      #question4 {
+        font-size: 45px;
+        font-family: "pixelletbold";
+        text-align: center;
+        vertical-align: bottom;
+        color: #594545;
+      }
+
+      #question5 {
+        font-size: 45px;
+        font-family: "pixelletbold";
+        text-align: center;
+        vertical-align: bottom;
+        color: #594545;
+      }
+      #yes1 {
+        font-size: 30px;
+        font-family: "Minecraft";
+        text-align: center;
+        margin: 10px;
+        width: 90px;
+        height: 50px;
+        background-color: #594545;
+        color:white;
+      }
+      #no1 {
+        font-size: 30px;
+        font-family: "Minecraft";
+        text-align: center;
+        margin: 10px;
+        width: 90px;
+        height: 50px;
+        background-color: #594545;
+        color:white;
+      }
+
+      #boxyes1 {
+        text-align: center;
+      }
+      #boxno1 {
+        text-align: center;
+      }
+
+      #yes2 {
+        font-size: 30px;
+        font-family: "Minecraft";
+        text-align: center;
+        margin: 10px;
+        width: 90px;
+        height: 50px;
+        background-color: #594545;
+        color:white;
+      }
+      #no2 {
+        font-size: 30px;
+        font-family: "Minecraft";
+        text-align: center;
+        margin: 10px;
+        width: 90px;
+        height: 50px;
+        background-color: #594545;
+        color:white;
+      }
+      #boxyes2 {
+        text-align: center;
+      }
+      #boxno2 {
+        text-align: center;
+      }
+
+      #yes3 {
+        font-size: 30px;
+        font-family: "Minecraft";
+        text-align: center;
+        margin: 10px;
+        width: 90px;
+        height: 50px;
+        background-color: #594545;
+        color:white;
+      }
+      #no3 {
+        font-size: 30px;
+        font-family: "Minecraft";
+        text-align: center;
+        margin: 10px;
+        width: 90px;
+        height: 50px;
+        background-color: #594545;
+        color:white;
+      }
+
+      #boxyes3 {
+        text-align: center;
+      }
+      #boxno3 {
+        text-align: center;
+      }
+
+      #yes4 {
+        font-size: 30px;
+        font-family: "Minecraft";
+        text-align: center;
+        margin: 10px;
+        width: 90px;
+        height: 50px;
+        background-color: #594545;
+        color:white;
+      }
+      #no4 {
+        font-size: 30px;
+        font-family: "Minecraft";
+        text-align: center;
+        margin: 10px;
+        width: 90px;
+        height: 50px;
+        background-color: #594545;
+        color:white;
+      }
+
+      #boxyes4 {
+        text-align: center;
+      }
+      #boxno4 {
+        text-align: center;
+      }
+
+      #yes5 {
+        font-size: 30px;
+        font-family: "Minecraft";
+        text-align: center;
+        margin: 10px;
+        width: 90px;
+        height: 50px;
+        background-color: #594545;
+        color:white;
+      }
+      #no5 {
+        font-size: 30px;
+        font-family: "Minecraft";
+        text-align: center;
+        margin: 10px;
+        width: 90px;
+        height: 50px;
+        background-color: #594545;
+        color:white;
+      }
+
+      #boxyes5 {
+        text-align: center;
+      }
+      #boxno5 {
+        text-align: center;
+      }
+      .test {
+        margin-top: 80px;
+        font-size: 40px;
+        font-family: "pixelletbold";
+        text-align: center;
+        color: #594545;
+        margin-top:150px;
+      }
+
+      .chocmenu {
+        margin-top: 20px;
+        font-size: 30px;
+        font-family: "pixelletbold";
+        text-align: center;
+        color: #594545;
+      }
+
+      .namemenu {
+        margin-top: 15px;
+        font-size: 30px;
+        font-family: "pixelletbold";
+        text-align: center;
+        color: #594545;
+      }
+      .img-show{
+        width: 40%;
+        display: flex;
+        justify-content:center;
+        align-items:center;
+        margin-left: 550px;
+      }
+
+    </style>
+  </head>
+  <body class="bgcol">
+    <div id="boxformainpage2">
+      <h1 id="mainpage2">Discover Your Favorite Sweet</h1>
+    </div>
+    <div id="question1">คุณเป็นคนเปิดใจยากสำหรับคนไม่รู้จัก</div>
+    <div id="boxyes1"><button id="yes1">yes</button></div>
+    <div id="boxno1"><button id="no1">no</button></div>
+
+    <div id="question2">คุณรู้สึกเหงาเเต่ก็ยังไม่ต้องการใคร</div>
+    <div id="boxyes2"><button id="yes2">yes</button></div>
+    <div id="boxno2"><button id="no2">no</button></div>
+
+    <div id="question3">
+      ช่วงนี้คุณกำลังรู้สึกเหนื่อยท้อเเละกำลังเผชิญกับปัญหาต่างๆ
+    </div>
+    <div id="boxyes3"><button id="yes3">yes</button></div>
+    <div id="boxno3"><button id="no3">no</button></div>
+
+    <div id="question4">คุณชอบชีวิตที่มีหลากหลายรสชาติ</div>
+    <div id="boxyes4"><button id="yes4">yes</button></div>
+    <div id="boxno4"><button id="no4">no</button></div>
+
+    <div id="question5">คุณเป็นคนชอบกินอะไรเย็นๆสดชื่น</div>
+    <div id="boxyes5"><button id="yes5">yes</button></div>
+    <div id="boxno5"><button id="no5">no</button></div>
+    <p class="test"></p>
+    <p class="chocmenu"></p>
+    <p class="namemenu"></p>
+    
+    
+    <img src="" class="img-show" alt="">
+    
+
+    <script>
+      const Yes1 = document.getElementById("yes1");
+const Yes2 = document.getElementById("yes2");
+const Yes3 = document.getElementById("yes3");
+const Yes4 = document.getElementById("yes4");
+const Yes5 = document.getElementById("yes5");
+const no1 = document.getElementById("no1");
+const no2 = document.getElementById("no2");
+const no3 = document.getElementById("no3");
+const no4 = document.getElementById("no4");
+const no5 = document.getElementById("no5");
+var score = [0];
+var clickbtn = 0;
+const test = document.querySelector(".test");
+const chocmenu = document.querySelector(".chocmenu");
+const namemenu = document.querySelector(".namemenu");
+const imgShow = document.querySelector(".img-show")
+
+Yes1.addEventListener("click", () => {
+  score[0] += 1000;
+  clickbtn += 1;
+
+  Yes1.style.color = "red";
+  Yes1.disabled = true;
+  no1.disabled = true;
+
+  if (clickbtn === 5 && score[0] >= 100000 && score[0] <= 120000) {
+    test.innerHTML = "ช๊อคโกแลตเย็นชื่นใจแต่ถ้าเธอยังไม่มีใครก็มาหาเราได้นะ";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "ไอศกรีม,ช๊อกโกเเลตเหนียวเย็น";
+    imgShow.src = "./Ice cream.png"
+    
+  } else if (clickbtn === 5 && score[0] >= 100 && score[0] <= 120) {
+    test.innerHTML = "ช๊อคโกแลตผลไม้สดชื่นเหมือนกับเราลื่นเข้าไปอยู่ในใจเธอ";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "สตอเบอร์รี่ช๊อคโกเเลต,น้ำพุช๊อคโกเเลต";
+    imgShow.src = "./Strawberry Chocolate.png"
+  } else if (clickbtn === 5 && score[0] >= 1000 && score[0] <= 1200) {
+    test.innerHTML =
+      "ไวท์ช๊อคโกแลตหวานนุ่มแต่ถ้ายังไม่เคยกินขนุนมากินที่ห้องเราได้นะ";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "บราวนี่,เเยมโรลราดไวท์ช๊อคโกเเลต";
+    imgShow.src = "./Brownie.png"
+  } else if (clickbtn === 5 && score[0] >= 10000 && score[0] <= 12000) {
+    test.innerHTML = "ดาร์คช๊อคโกแลตเข้มข้นถึงใจแต่ยังไม่ใส่ใจเท่ากับเรา";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "ถ้วยดาร์คช๊อคโกเเลต,ดาร์คช๊อคโกเเลตเเท่ง";
+    imgShow.src = "./Cake Roll Chocolate.png"
+  } else if (clickbtn === 5 && score[0] >= 10 && score[0] <= 20) {
+    test.innerHTML =
+      "ช๊อคโกแลตหวานอุ่นที่ให้รู้สึกอ่อนนุ่มเหมือนอยู่ในอ้อมกอดเธอ";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "ช๊อคโกเเลตร้อน,ขนมปังช๊อคโกเเลต";
+    imgShow.src = "./Bread Chocolate.png"
+  }
+});
+
+Yes2.addEventListener("click", () => {
+  score[0] += 10;
+  clickbtn += 1;
+
+  Yes2.style.color = "red";
+  Yes2.disabled = true;
+  no2.disabled = true;
+
+  if (clickbtn === 5 && score[0] >= 100000 && score[0] <= 120000) {
+    test.innerHTML = "ช๊อคโกแลตเย็นชื่นใจแต่ถ้าเธอยังไม่มีใครก็มาหาเราได้นะ";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "ไอศกรีม,ช๊อกโกเเลตเหนียวเย็น";
+    imgShow.src = "./Ice cream.png"
+  } else if (clickbtn === 5 && score[0] >= 100 && score[0] <= 120) {
+    test.innerHTML = "ช๊อคโกแลตผลไม้สดชื่นเหมือนกับเราลื่นเข้าไปอยู่ในใจเธอ";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "สตอเบอร์รี่ช๊อคโกเเลต,น้ำพุช๊อคโกเเลต";
+    imgShow.src = "./Strawberry Chocolate.png"
+  } else if (clickbtn === 5 && score[0] >= 1000 && score[0] <= 1200) {
+    test.innerHTML =
+      "ไวท์ช๊อคโกแลตหวานนุ่มแต่ถ้ายังไม่เคยกินขนุนมากินที่ห้องเราได้นะ";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "บราวนี่,เเยมโรลราดไวท์ช๊อคโกเเลต";
+    imgShow.src = "./Brownie.png"
+  } else if (clickbtn === 5 && score[0] >= 10000 && score[0] <= 12000) {
+    test.innerHTML = "ดาร์คช๊อคโกแลตเข้มข้นถึงใจแต่ยังไม่ใส่ใจเท่ากับเรา";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "ถ้วยดาร์คช๊อคโกเเลต,ดาร์คช๊อคโกเเลตเเท่ง";
+    imgShow.src = "./Cake Roll Chocolate.png"
+  } else if (clickbtn === 5 && score[0] >= 10 && score[0] <= 20) {
+    test.innerHTML =
+      "ช๊อคโกแลตหวานอุ่นที่ให้รู้สึกอ่อนนุ่มเหมือนอยู่ในอ้อมกอดเธอ";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "ช๊อคโกเเลตร้อน,ขนมปังช๊อคโกเเลต";
+    imgShow.src = "./Bread Chocolate.png"
+  }
+});
+
+Yes3.addEventListener("click", () => {
+  score[0] += 10000;
+  clickbtn += 1;
+
+  Yes3.style.color = "red";
+  Yes3.disabled = true;
+  no3.disabled = true;
+
+  if (clickbtn === 5 && score[0] >= 100000 && score[0] <= 120000) {
+    test.innerHTML = "ช๊อคโกแลตเย็นชื่นใจแต่ถ้าเธอยังไม่มีใครก็มาหาเราได้นะ";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "ไอศกรีม,ช๊อกโกเเลตเหนียวเย็น";
+    imgShow.src = "./Ice cream.png"
+  } else if (clickbtn === 5 && score[0] >= 100 && score[0] <= 120) {
+    test.innerHTML = "ช๊อคโกแลตผลไม้สดชื่นเหมือนกับเราลื่นเข้าไปอยู่ในใจเธอ";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "สตอเบอร์รี่ช๊อคโกเเลต,น้ำพุช๊อคโกเเลต";
+    imgShow.src = "./Strawberry Chocolate.png"
+  } else if (clickbtn === 5 && score[0] >= 1000 && score[0] <= 1200) {
+    test.innerHTML =
+      "ไวท์ช๊อคโกแลตหวานนุ่มแต่ถ้ายังไม่เคยกินขนุนมากินที่ห้องเราได้นะ";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "บราวนี่,เเยมโรลราดไวท์ช๊อคโกเเลต";
+    imgShow.src = "./Brownie.png"
+  } else if (clickbtn === 5 && score[0] >= 10000 && score[0] <= 12000) {
+    test.innerHTML = "ดาร์คช๊อคโกแลตเข้มข้นถึงใจแต่ยังไม่ใส่ใจเท่ากับเรา";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "ถ้วยดาร์คช๊อคโกเเลต,ดาร์คช๊อคโกเเลตเเท่ง";
+    imgShow.src = "./Cake Roll Chocolate.png"
+  } else if (clickbtn === 5 && score[0] >= 10 && score[0] <= 20) {
+    test.innerHTML =
+      "ช๊อคโกแลตหวานอุ่นที่ให้รู้สึกอ่อนนุ่มเหมือนอยู่ในอ้อมกอดเธอ";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "ช๊อคโกเเลตร้อน,ขนมปังช๊อคโกเเลต";
+    imgShow.src = "./Bread Chocolate.png"
+  }
+});
+
+Yes4.addEventListener("click", () => {
+  score[0] += 100;
+  clickbtn += 1;
+
+  Yes4.style.color = "red";
+  Yes4.disabled = true;
+  no4.disabled = true;
+
+  if (clickbtn === 5 && score[0] >= 100000 && score[0] <= 120000) {
+    test.innerHTML = "ช๊อคโกแลตเย็นชื่นใจแต่ถ้าเธอยังไม่มีใครก็มาหาเราได้นะ";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "ไอศกรีม,ช๊อกโกเเลตเหนียวเย็น";
+    imgShow.src = "./Ice cream.png"
+  } else if (clickbtn === 5 && score[0] >= 100 && score[0] <= 120) {
+    test.innerHTML = "ช๊อคโกแลตผลไม้สดชื่นเหมือนกับเราลื่นเข้าไปอยู่ในใจเธอ";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "สตอเบอร์รี่ช๊อคโกเเลต,น้ำพุช๊อคโกเเลต";
+    imgShow.src = "./Strawberry Chocolate.png"
+  } else if (clickbtn === 5 && score[0] >= 1000 && score[0] <= 1200) {
+    test.innerHTML =
+      "ไวท์ช๊อคโกแลตหวานนุ่มแต่ถ้ายังไม่เคยกินขนุนมากินที่ห้องเราได้นะ";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "บราวนี่,เเยมโรลราดไวท์ช๊อคโกเเลต";
+    imgShow.src = "./Brownie.png"
+  } else if (clickbtn === 5 && score[0] >= 10000 && score[0] <= 12000) {
+    test.innerHTML = "ดาร์คช๊อคโกแลตเข้มข้นถึงใจแต่ยังไม่ใส่ใจเท่ากับเรา";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "ถ้วยดาร์คช๊อคโกเเลต,ดาร์คช๊อคโกเเลตเเท่ง";
+    imgShow.src = "./Cake Roll Chocolate.png"
+  } else if (clickbtn === 5 && score[0] >= 10 && score[0] <= 20) {
+    test.innerHTML =
+      "ช๊อคโกแลตหวานอุ่นที่ให้รู้สึกอ่อนนุ่มเหมือนอยู่ในอ้อมกอดเธอ";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "ช๊อคโกเเลตร้อน,ขนมปังช๊อคโกเเลต";
+    imgShow.src = "./Bread Chocolate.png"
+  }
+});
+
+Yes5.addEventListener("click", () => {
+  score[0] += 100000;
+  clickbtn += 1;
+
+  Yes5.style.color = "red";
+  Yes5.disabled = true;
+  no5.disabled = true;
+
+  if (clickbtn === 5 && score[0] >= 100000 && score[0] <= 120000) {
+    test.innerHTML = "ช๊อคโกแลตเย็นชื่นใจแต่ถ้าเธอยังไม่มีใครก็มาหาเราได้นะ";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "ไอศกรีม,ช๊อกโกเเลตเหนียวเย็น";
+    imgShow.src = "./Ice cream.png"
+  } else if (clickbtn === 5 && score[0] >= 100 && score[0] <= 120) {
+    test.innerHTML = "ช๊อคโกแลตผลไม้สดชื่นเหมือนกับเราลื่นเข้าไปอยู่ในใจเธอ";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "สตอเบอร์รี่ช๊อคโกเเลต,น้ำพุช๊อคโกเเลต";
+    imgShow.src = "./Strawberry Chocolate.png"
+  } else if (clickbtn === 5 && score[0] >= 1000 && score[0] <= 1200) {
+    test.innerHTML =
+      "ไวท์ช๊อคโกแลตหวานนุ่มแต่ถ้ายังไม่เคยกินขนุนมากินที่ห้องเราได้นะ";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "บราวนี่,เเยมโรลราดไวท์ช๊อคโกเเลต";
+    imgShow.src = "./Brownie.png"
+  } else if (clickbtn === 5 && score[0] >= 10000 && score[0] <= 12000) {
+    test.innerHTML = "ดาร์คช๊อคโกแลตเข้มข้นถึงใจแต่ยังไม่ใส่ใจเท่ากับเรา";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "ถ้วยดาร์คช๊อคโกเเลต,ดาร์คช๊อคโกเเลตเเท่ง";
+    imgShow.src = "./Cake Roll Chocolate.png"
+  } else if (clickbtn === 5 && score[0] >= 10 && score[0] <= 20) {
+    test.innerHTML =
+      "ช๊อคโกแลตหวานอุ่นที่ให้รู้สึกอ่อนนุ่มเหมือนอยู่ในอ้อมกอดเธอ";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "ช๊อคโกเเลตร้อน,ขนมปังช๊อคโกเเลต";
+    imgShow.src = "./Bread Chocolate.png"
+  }
+});
+
+no1.addEventListener("click", () => {
+  score[0] += 0;
+  clickbtn += 1;
+
+  no1.style.color = "red";
+  Yes1.disabled = true;
+  no1.disabled = true;
+
+  if (clickbtn === 5 && score[0] >= 100000 && score[0] <= 120000) {
+    test.innerHTML = "ช๊อคโกแลตเย็นชื่นใจแต่ถ้าเธอยังไม่มีใครก็มาหาเราได้นะ";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "ไอศกรีม,ช๊อกโกเเลตเหนียวเย็น";
+    imgShow.src = "./Ice cream.png"
+  } else if (clickbtn === 5 && score[0] >= 100 && score[0] <= 120) {
+    test.innerHTML = "ช๊อคโกแลตผลไม้สดชื่นเหมือนกับเราลื่นเข้าไปอยู่ในใจเธอ";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "สตอเบอร์รี่ช๊อคโกเเลต,น้ำพุช๊อคโกเเลต";
+    imgShow.src = "./Strawberry Chocolate.png"
+  } else if (clickbtn === 5 && score[0] >= 1000 && score[0] <= 1200) {
+    test.innerHTML =
+      "ไวท์ช๊อคโกแลตหวานนุ่มแต่ถ้ายังไม่เคยกินขนุนมากินที่ห้องเราได้นะ";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "บราวนี่,เเยมโรลราดไวท์ช๊อคโกเเลต";
+    imgShow.src = "./Brownie.png"
+  } else if (clickbtn === 5 && score[0] >= 10000 && score[0] <= 12000) {
+    test.innerHTML = "ดาร์คช๊อคโกแลตเข้มข้นถึงใจแต่ยังไม่ใส่ใจเท่ากับเรา";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "ถ้วยดาร์คช๊อคโกเเลต,ดาร์คช๊อคโกเเลตเเท่ง";
+    imgShow.src = "./Cake Roll Chocolate.png"
+  } else if (clickbtn === 5 && score[0] >= 10 && score[0] <= 20) {
+    test.innerHTML =
+      "ช๊อคโกแลตหวานอุ่นที่ให้รู้สึกอ่อนนุ่มเหมือนอยู่ในอ้อมกอดเธอ";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "ช๊อคโกเเลตร้อน,ขนมปังช๊อคโกเเลต";
+    imgShow.src = "./Bread Chocolate.png"
+  }
+});
+
+no2.addEventListener("click", () => {
+  score[0] += 0;
+  clickbtn += 1;
+
+  no2.style.color = "red";
+  Yes2.disabled = true;
+  no2.disabled = true;
+
+  if (clickbtn === 5 && score[0] >= 100000 && score[0] <= 120000) {
+    test.innerHTML = "ช๊อคโกแลตเย็นชื่นใจแต่ถ้าเธอยังไม่มีใครก็มาหาเราได้นะ";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "ไอศกรีม,ช๊อกโกเเลตเหนียวเย็น";
+    imgShow.src = "./Ice cream.png"
+  } else if (clickbtn === 5 && score[0] >= 100 && score[0] <= 120) {
+    test.innerHTML = "ช๊อคโกแลตผลไม้สดชื่นเหมือนกับเราลื่นเข้าไปอยู่ในใจเธอ";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "สตอเบอร์รี่ช๊อคโกเเลต,น้ำพุช๊อคโกเเลต";
+    imgShow.src = "./Strawberry Chocolate.png"
+  } else if (clickbtn === 5 && score[0] >= 1000 && score[0] <= 1200) {
+    test.innerHTML =
+      "ไวท์ช๊อคโกแลตหวานนุ่มแต่ถ้ายังไม่เคยกินขนุนมากินที่ห้องเราได้นะ";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "บราวนี่,เเยมโรลราดไวท์ช๊อคโกเเลต";
+    imgShow.src = "./Brownie.png"
+  } else if (clickbtn === 5 && score[0] >= 10000 && score[0] <= 12000) {
+    test.innerHTML = "ดาร์คช๊อคโกแลตเข้มข้นถึงใจแต่ยังไม่ใส่ใจเท่ากับเรา";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "ถ้วยดาร์คช๊อคโกเเลต,ดาร์คช๊อคโกเเลตเเท่ง";
+    imgShow.src = "./Cake Roll Chocolate.png"
+  } else if (clickbtn === 5 && score[0] >= 10 && score[0] <= 20) {
+    test.innerHTML =
+      "ช๊อคโกแลตหวานอุ่นที่ให้รู้สึกอ่อนนุ่มเหมือนอยู่ในอ้อมกอดเธอ";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "ช๊อคโกเเลตร้อน,ขนมปังช๊อคโกเเลต";
+    imgShow.src = "./Bread Chocolate.png"
+  }
+});
+
+no3.addEventListener("click", () => {
+  score[0] += 0;
+  clickbtn += 1;
+
+  no3.style.color = "red";
+  Yes3.disabled = true;
+  no3.disabled = true;
+
+  if (clickbtn === 5 && score[0] >= 100000 && score[0] <= 120000) {
+    test.innerHTML = "ช๊อคโกแลตเย็นชื่นใจแต่ถ้าเธอยังไม่มีใครก็มาหาเราได้นะ";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "ไอศกรีม,ช๊อกโกเเลตเหนียวเย็น";
+    imgShow.src = "./Ice cream.png"
+  } else if (clickbtn === 5 && score[0] >= 100 && score[0] <= 120) {
+    test.innerHTML = "ช๊อคโกแลตผลไม้สดชื่นเหมือนกับเราลื่นเข้าไปอยู่ในใจเธอ";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "สตอเบอร์รี่ช๊อคโกเเลต,น้ำพุช๊อคโกเเลต";
+    imgShow.src = "./Strawberry Chocolate.png"
+  } else if (clickbtn === 5 && score[0] >= 1000 && score[0] <= 1200) {
+    test.innerHTML =
+      "ไวท์ช๊อคโกแลตหวานนุ่มแต่ถ้ายังไม่เคยกินขนุนมากินที่ห้องเราได้นะ";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "บราวนี่,เเยมโรลราดไวท์ช๊อคโกเเลต";
+    imgShow.src = "./Brownie.png"
+  } else if (clickbtn === 5 && score[0] >= 10000 && score[0] <= 12000) {
+    test.innerHTML = "ดาร์คช๊อคโกแลตเข้มข้นถึงใจแต่ยังไม่ใส่ใจเท่ากับเรา";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "ถ้วยดาร์คช๊อคโกเเลต,ดาร์คช๊อคโกเเลตเเท่ง";
+    imgShow.src = "./Cake Roll Chocolate.png"
+  } else if (clickbtn === 5 && score[0] >= 10 && score[0] <= 20) {
+    test.innerHTML =
+      "ช๊อคโกแลตหวานอุ่นที่ให้รู้สึกอ่อนนุ่มเหมือนอยู่ในอ้อมกอดเธอ";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "ช๊อคโกเเลตร้อน,ขนมปังช๊อคโกเเลต";
+    imgShow.src = "./Bread Chocolate.png"
+  }
+});
+
+no4.addEventListener("click", () => {
+  score[0] += 0;
+  clickbtn += 1;
+
+  no4.style.color = "red";
+  Yes4.disabled = true;
+  no4.disabled = true;
+
+  if (clickbtn === 5 && score[0] >= 100000 && score[0] <= 120000) {
+    test.innerHTML = "ช๊อคโกแลตเย็นชื่นใจแต่ถ้าเธอยังไม่มีใครก็มาหาเราได้นะ";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "ไอศกรีม,ช๊อกโกเเลตเหนียวเย็น";
+    imgShow.src = "./Ice cream.png"
+  } else if (clickbtn === 5 && score[0] >= 100 && score[0] <= 120) {
+    test.innerHTML = "ช๊อคโกแลตผลไม้สดชื่นเหมือนกับเราลื่นเข้าไปอยู่ในใจเธอ";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "สตอเบอร์รี่ช๊อคโกเเลต,น้ำพุช๊อคโกเเลต";
+    imgShow.src = "./Strawberry Chocolate.png"
+  } else if (clickbtn === 5 && score[0] >= 1000 && score[0] <= 1200) {
+    test.innerHTML =
+      "ไวท์ช๊อคโกแลตหวานนุ่มแต่ถ้ายังไม่เคยกินขนุนมากินที่ห้องเราได้นะ";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "บราวนี่,เเยมโรลราดไวท์ช๊อคโกเเลต";
+    imgShow.src = "./Brownie.png"
+  } else if (clickbtn === 5 && score[0] >= 10000 && score[0] <= 12000) {
+    test.innerHTML = "ดาร์คช๊อคโกแลตเข้มข้นถึงใจแต่ยังไม่ใส่ใจเท่ากับเรา";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "ถ้วยดาร์คช๊อคโกเเลต,ดาร์คช๊อคโกเเลตเเท่ง";
+    imgShow.src = "./Cake Roll Chocolate.png"
+  } else if (clickbtn === 5 && score[0] >= 10 && score[0] <= 20) {
+    test.innerHTML =
+      "ช๊อคโกแลตหวานอุ่นที่ให้รู้สึกอ่อนนุ่มเหมือนอยู่ในอ้อมกอดเธอ";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "ช๊อคโกเเลตร้อน,ขนมปังช๊อคโกเเลต";
+    imgShow.src = "./Bread Chocolate.png"
+  }
+});
+
+no5.addEventListener("click", () => {
+  score[0] += 0;
+  clickbtn += 1;
+
+  no5.style.color = "red";
+  Yes5.disabled = true;
+  no5.disabled = true;
+
+  if (clickbtn === 5 && score[0] >= 100000 && score[0] <= 120000) {
+    test.innerHTML = "ช๊อคโกแลตเย็นชื่นใจแต่ถ้าเธอยังไม่มีใครก็มาหาเราได้นะ";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "ไอศกรีม,ช๊อกโกเเลตเหนียวเย็น";
+    imgShow.src = "./Ice cream.png"
+  } else if (clickbtn === 5 && score[0] >= 100 && score[0] <= 120) {
+    test.innerHTML = "ช๊อคโกแลตผลไม้สดชื่นเหมือนกับเราลื่นเข้าไปอยู่ในใจเธอ";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "สตอเบอร์รี่ช๊อคโกเเลต,น้ำพุช๊อคโกเเลต";
+    imgShow.src = "./Strawberry Chocolate.png"
+  } else if (clickbtn === 5 && score[0] >= 1000 && score[0] <= 1200) {
+    test.innerHTML =
+      "ไวท์ช๊อคโกแลตหวานนุ่มแต่ถ้ายังไม่เคยกินขนุนมากินที่ห้องเราได้นะ";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "บราวนี่,เเยมโรลราดไวท์ช๊อคโกเเลต";
+    imgShow.src = "./Brownie.png"
+  } else if (clickbtn === 5 && score[0] >= 10000 && score[0] <= 12000) {
+    test.innerHTML = "ดาร์คช๊อคโกแลตเข้มข้นถึงใจแต่ยังไม่ใส่ใจเท่ากับเรา";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "ถ้วยดาร์คช๊อคโกเเลต,ดาร์คช๊อคโกเเลตเเท่ง";
+    imgShow.src = "./Cake Roll Chocolate.png"
+  } else if (clickbtn === 5 && score[0] >= 10 && score[0] <= 20) {
+    test.innerHTML =
+      "ช๊อคโกแลตหวานอุ่นที่ให้รู้สึกอ่อนนุ่มเหมือนอยู่ในอ้อมกอดเธอ";
+    chocmenu.innerHTML = "เมนูเเนะนำสำหรับคุณ";
+    namemenu.innerHTML = "ช๊อคโกเเลตร้อน,ขนมปังช๊อคโกเเลต";
+    imgShow.src = "./Bread Chocolate.png"
+  }
+});
+
+    </script>
+  </body>
+</html>
