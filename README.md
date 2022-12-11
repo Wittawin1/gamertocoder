@@ -82,9 +82,5 @@
         <p id = "gopage2getstart" >
             Get Started
         </p>
-    </a>
+       </a>
        </div>
-    </body>
-    
-
-</html>
